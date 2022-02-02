@@ -1,4 +1,4 @@
-.TH "USERJS-DL" "1" "January 2022" "ThatFatBlackCat" "TFBC"
+.TH "USERJS-DL" "1" "February 2022" "ThatFatBlackCat" "TFBC"
 .hy
 .SH NAME
 .PP
@@ -14,23 +14,14 @@ Make a backup of your profile before executing, just in case.
 .PD
 If you find some bugs, open an issue on GitHub and I'll take care.
 .PP
-\f[B]-f\f[R], \f[B]--file\f[R]   URL to user.js
-.PD 0
-.P
-.PD
-Indicates where user.js template is located. Default points to 'Arkenfox'.
+\f[B]-h\f[R] http    Location of user.js template.
+Default points to 'arkenfox'.
 .PP
-\f[B]-d\f[R], \f[B]--diff\f[R] .../user.js.diff
-.PD 0
-.P
-.PD
-Patches user.js template using the specified diff file. Disabled by default.
+\f[B]-p\f[R] prof    Path to firefox profile directory.
+Default points to 'hardened'.
 .PP
-\f[B]-p\f[R], \f[B]--prof\f[R] .../a1b2.profile
-.PD 0
-.P
-.PD
-Applies user.js template to chosen profile. Default points to 'hardened'.
+\f[B]-d\f[R] diff    Path to user.js diff/patch file.
+Default is disabled (/dev/null).
 .SH LICENSING
 .PP
 Licensed under ISC by TFBC, published at
